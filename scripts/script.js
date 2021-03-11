@@ -24,5 +24,16 @@ window.onload = () =>  {
     let b = 1000108;
     alert("check:"+ "1000" + "108");
 
+    //  #5
+
+    let f = 5;
+    let d = 7; 
+    f = f + d;
+    d = f - d;
+    f = f - d;
+    alert(f);
+    alert(d);
+
+
 
 };
