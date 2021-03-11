@@ -33,7 +33,4 @@ window.onload = () =>  {
     f = f - d;
     alert(f);
     alert(d);
-
-
-
 };
