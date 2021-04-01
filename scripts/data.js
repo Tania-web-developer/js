@@ -122,5 +122,87 @@ const figures = {
 };
 
 
+const productsArr = [
+    {
+        product_id: 1,
+        brand: "MANGO PEOPLE",
+        name: "T - SHIRT",
+        src: "./img/image__1.jpg",
+        srcS: "/img/image_1.jpg",
+        description: 'Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.',
+        price: 300,
+        color: "red",
+        size: "XL",
+       
+    },
+    {
+        product_id: 2,
+        brand: "MANGO PEOPLE",
+        name: "T - SHIRT",
+        src: "./img/image__2.jpg",
+        srcS: "./img/image_2.jpg",
+        description: `Known for her sculptural takes 
+        on traditional tailoring, 
+        Australian arbiter of cool Kym Ellery teams up
+        with Moda Operandi.`,
+        price: 300,
+        color: "red",
+        size: "XL",
+       
+    },
+    {
+        product_id: 3,
+        brand: "MANGO PEOPLE",
+        name: "T - SHIRT",
+        src: "./img/image__3.jpg",
+        srcS: "./img/image_3.jpg",
+        description: "",
+        price: 300,
+        color: "red",
+        size: "XL",
+        
+    },
+    {
+        product_id: 4,
+        brand: "MANGO PEOPLE",
+        name: "T - SHIRT",
+        src: "./img/image___4.jpg",       
+        description: "",
+        price: 300,
+        color: "red",
+        size: "XL",
+        
+    },
+    {
+        product_id: 5,
+        brand: "MANGO PEOPLE",
+        name: "T - SHIRT",
+        src: "./img/image__5.jpg",
+        srcS: "./img/image_5.jpg",
+        description: "",
+        price: 300,
+        color: "red",
+        size: "XL",
+        
+    },
+    {
+        product_id: 6,
+        brand: "MANGO PEOPLE",
+        name: "T - SHIRT",
+        src: "./img/image__6.jpg",
+        srcS: "./img/image_6.jpg",
+        description: "",
+        price: 300,
+        color: "red",
+        size: "XL",
+       
+    },
+    
+];
+
+
+
+
+
 
 
