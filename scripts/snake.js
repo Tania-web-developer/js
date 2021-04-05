@@ -290,16 +290,14 @@ const game = {
         this.stop();
         this.snake.init(this.getStartSnakeBody(), 'up');
         this.food.setCoordinates(this.getRandomFreeCoordinates());
-        this.wall.setCoordinates(this.getRandomFreeCoordinates());
-        this.map.wallRender(this.wall.getCoordinates(this.getRandomFreeCoordinates()));
+        this.wall.setCoordinates(this.getRandomFreeCoordinates());       
         this.render();
         this.score.drop();
     },
 
     play() {
         this.status.setPlaying();
-        this.tickInterval = setInterval(() => this.tickHandler(), 1000 / this.config.getSpeed());
-       
+        this.tickInterval = setInterval(() => this.tickHandler(), 1000 / this.config.getSpeed());       
         this.setPlayButton('STOP');
     },
 
@@ -327,10 +325,12 @@ const game = {
                 return this.finish();
             }
         }
+        
         if (this.wall.isOnPoint(this.snake.getNextStepHeadPoint())) {
             return this.finish();
         }
         this.snake.makeStep();
+        this.map.wallRender(this.wall.getCoordinates());
         this.render();
     },
 
