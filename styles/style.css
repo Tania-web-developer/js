@@ -112,6 +112,13 @@ button {
     gap: 0px 0px;    
 }
 
+.b-game__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 .b-game__col{
     min-width: 30px;
     min-height: 30px;
@@ -120,7 +127,12 @@ button {
 }
 
 .b-game__button{
-    background-color: goldenrod;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 100px;
+    margin-left: 0;
 }
 
 .disabled{
@@ -137,11 +149,20 @@ button {
 }
 
 .food{
-    background-color: greenyellow;
+    background-image: url(../img/food.png);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .wall{
     background-color: lightblue;
+}
+
+#game-score{
+    border: 2px solid  lightblue;
+    border-radius: 8px;
+    padding: 0.7rem;
 }
 
 
