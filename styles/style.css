@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wraper {
+    max-width: 700px;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.board-container {
+    outline: 5px solid rgb(85, 50, 18);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: antiquewhite;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(85, 50, 18);
+}
+
+.column {
+    width: 70px;
+    height: 70px;
+}
+
+.column p {
+    padding: .8rem 0 0 0;
+}
+
+.row img {
+    max-height: 100%;
+    transition: .5s;
+    animation: appearance 1s;
+}
+
+@keyframes appearance {
+    0% {
+        transform: scale(0);
+        opacity: (0);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: (1);
+    }
+}
+
+.black {
+    background-color: rgb(85, 50, 18);
+}
+
+.fw {
+    fill: white;
+    max-height: 60px;
+}
+
+.border-letters {
+    border-top: rgb(85, 50, 18) solid 3px;
+    border-bottom: rgb(85, 50, 18) solid 3px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.border-numbers {
+    border-left: rgb(85, 50, 18) solid 4px;
+    border-right: rgb(85, 50, 18) solid 3px;
+    font-size: 2rem;
+}
+
+.img {
+    display: block;
+}
+
+.catalog-card,
+.cart-product {
+    margin: 3rem;
+    border: solid 1px grey;
+    padding: 1rem;
+    text-align: center;
+    width: 500px;
+}
+
+button {
+    margin: 1rem;
+}
+
+#total-cart,
+.galery-container {
+    margin: 3rem;
+    font-size: 2rem
+}
+
+/*////////// snake game */
+
+.b-game__board {
+    
+}
+
+.b-game__row{
+    display: grid;
+    background-color: rgb(177, 174, 174);    
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));    
+    gap: 0px 0px;    
+}
+
+.b-game__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.b-game__col{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 7px;  
+    border: gray 1px solid;
+}
+
+.b-game__button{
+    background-color:  lightblue;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 100px;
+    margin-left: 0;
+}
+
+.disabled{
+    background-color: gray;
+}
+
+
+.snakeHead{
+    background-color: purple;
+}
+
+.snakeBody{
+    background-color: pink;
+}
+
+.food{
+    background-image: url(../img/food.png);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wall{
+    background-color: lightblue;
+}
+
+#game-score{
+    border: 2px solid  lightblue;
+    border-radius: 8px;
+    padding: 0.7rem;
+}
+
+
+
