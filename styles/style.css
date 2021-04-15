@@ -45,6 +45,7 @@
         transform: scale(0);
         opacity: (0);
     }
+
     100% {
         transform: scale(1);
         opacity: (1);
@@ -79,7 +80,8 @@
     display: block;
 }
 
-.catalog-card, .cart-product {
+.catalog-card,
+.cart-product {
     margin: 3rem;
     border: solid 1px grey;
     padding: 1rem;
@@ -91,7 +93,77 @@ button {
     margin: 1rem;
 }
 
-#total-cart, .galery-container {
+#total-cart,
+.galery-container {
     margin: 3rem;
     font-size: 2rem
 }
+
+/*////////// snake game */
+
+.b-game__board {
+    
+}
+
+.b-game__row{
+    display: grid;
+    background-color: rgb(177, 174, 174);    
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));    
+    gap: 0px 0px;    
+}
+
+.b-game__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.b-game__col{
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 7px;  
+    border: gray 1px solid;
+}
+
+.b-game__button{
+    background-color:  lightblue;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 100px;
+    margin-left: 0;
+}
+
+.disabled{
+    background-color: gray;
+}
+
+
+.snakeHead{
+    background-color: purple;
+}
+
+.snakeBody{
+    background-color: pink;
+}
+
+.food{
+    background-image: url(../img/food.png);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wall{
+    background-color: lightblue;
+}
+
+#game-score{
+    border: 2px solid  lightblue;
+    border-radius: 8px;
+    padding: 0.7rem;
+}
+
+
+
