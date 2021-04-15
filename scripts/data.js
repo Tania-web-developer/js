@@ -32,7 +32,7 @@ const dataGameObj = {
 };
 
 const dataMillionaireArr = [
-   {
+    {
         question: 'Кем был мужчина, послуживший моделью для известной картины «Американская готика» Гранта Вуда?\n',
         answers: {
             a: 'a-Коммивояжером\n',
@@ -51,7 +51,7 @@ const dataMillionaireArr = [
             d: 'd-Слоном\n',
         },
         correctAnswer: 'a',
-        
+
     },
     {
         question: 'Под каким названием известна единица с последующими ста нулями?\n',
@@ -60,7 +60,7 @@ const dataMillionaireArr = [
             b: 'b-Мегатрон\n',
             c: 'c-Гигабит\n',
             d: 'd-Наномоль\n',
-        }, 
+        },
         correctAnswer: 'a',
     },
     {
@@ -70,11 +70,56 @@ const dataMillionaireArr = [
             b: 'b-Ом\n',
             c: 'c-Вольт\n',
             d: 'd-Герц\n',
-        }, 
+        },
         correctAnswer: 'c',
     },
 
 ]
+
+const figures = {
+
+    figuresWhiteArr: [
+        { id: 'PW1', pos: 'a2', src: './img/pw.svg' },
+        { id: 'PW2', pos: 'b2', src: './img/pw.svg' },   
+        { id: 'PW3', pos: 'c2', src: './img/pw.svg' },   
+        { id: 'PW4', pos: 'd2', src: './img/pw.svg' },         
+        { id: 'PW5', pos: 'e2', src: './img/pw.svg' },
+        { id: 'PW6', pos: 'f2', src: './img/pw.svg' },
+        { id: 'PW7', pos: 'g2', src: './img/pw.svg' },
+        { id: 'PW8', pos: 'h2', src: './img/pw.svg' },        
+        { id: 'RW1', pos: 'a1', src: './img/rw.svg' },
+        { id: 'NW1', pos: 'c1', src: './img/nw.svg' },
+        { id: 'BW1', pos: 'b1', src: './img/bw.svg' },        
+        { id: 'QW0', pos: 'd1', src: './img/qw.svg' },        
+        { id: 'KW0', pos: 'e1', src: './img/kw.svg' },       
+        { id: 'BW1', pos: 'g1', src: './img/bw.svg' },
+        { id: 'NW2', pos: 'h1', src: './img/nw.svg' },
+        { id: 'RW2', pos: 'f1', src: './img/rw.svg' },
+        
+        
+    ],
+
+    figuresBlackArr: [     
+        { id: 'PB1', pos: 'a7', src: './img/pb.svg' },
+        { id: 'PB2', pos: 'b7', src: './img/pb.svg' },   
+        { id: 'PB3', pos: 'c7', src: './img/pb.svg' },   
+        { id: 'PB4', pos: 'd7', src: './img/pb.svg' },         
+        { id: 'PB5', pos: 'e7', src: './img/pb.svg' },
+        { id: 'PB6', pos: 'f7', src: './img/pb.svg' },
+        { id: 'PB7', pos: 'g7', src: './img/pb.svg' },
+        { id: 'PB8', pos: 'h7', src: './img/pb.svg' },   
+        { id: 'RB1', pos: 'a8', src: './img/rb.svg' },
+        { id: 'NB1', pos: 'c8', src: './img/nb.svg' },
+        { id: 'BB1', pos: 'b8', src: './img/bb.svg' },        
+        { id: 'QB0', pos: 'd8', src: './img/qb.svg' },        
+        { id: 'KB0', pos: 'e8', src: './img/kb.svg' },        
+        { id: 'BB1', pos: 'g8', src: './img/bb.svg' },
+        { id: 'NB2', pos: 'h8', src: './img/nb.svg' },
+        { id: 'RB2', pos: 'f8', src: './img/rb.svg' },
+        
+    ],
+
+};
 
 
 
